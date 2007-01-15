@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://tabextensions_unread/locale/">
+
+<overlay
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript"><![CDATA[
+
+if (!('_elementIDs' in window) || !window._elementIDs)
+	var _elementIDs = [];
+
+_elementIDs.push('highlightUnreadTab');
+
+	]]></script>
+
+<box id="miscPrefContainer">
+	<checkbox id="highlightUnreadTab" insertafter="showLinkTextAsLabelPermanentlyBox"
+		label="&highlightUnreadTab;"
+		prefstring="browser.tabs.extensions.highlight_unread"/>
+</box>
+
+</overlay>
