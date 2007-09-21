@@ -8,9 +8,11 @@
                    em:version="1.0.2005022701"
                    em:creator="SHIMODA Hiroshi"
                    em:description="Highlights unread tabs. This extension requires the &quot;Tabbrowser Extensions.&quot;"
-                   em:homepageURL="http://piro.sakura.ne.jp/xul/_tabextensions_modules.html"
+                   em:homepageURL="http://piro.sakura.ne.jp/xul/_tabextensions_modules.html">
+<!--
                    em:iconURL=""
-                   em:optionsURL="">
+                   em:optionsURL=""
+-->
 
 
     <em:updateURL>https://pub.cozmixng.org/~piro/xul/xul.rdf.en</em:updateURL>
